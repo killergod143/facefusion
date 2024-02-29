@@ -81,7 +81,7 @@ def analyse_frame(vision_frame : VisionFrame) -> bool:
 """
 
 def analyse_frame(vision_frame : VisionFrame) -> bool:
-    return False
+    return False > PROBABILITY_LIMIT
 
 
 @lru_cache(maxsize = None)
